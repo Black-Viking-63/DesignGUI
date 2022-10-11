@@ -14,7 +14,7 @@ import numpy as np
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(400, 600)
+        MainWindow.setFixedSize(400, 600)
         font = QtGui.QFont()
         font.setFamily("Times New Roman")
         font.setPointSize(16)
@@ -40,13 +40,12 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
-        MainWindow.setStatusBar(self.statusbar)
-
+        MainWindow.setStatusBar(self.statusbar)        
         self.retranslateUi(MainWindow)
-        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)    
 
-    def button_click(self):
-            films = [
+    def button_click(self):    
+        films = [
                         "1. Властелин колец 3: Возвращение Короля (The Lord of the Rings: The Return of the King), 2003",
                         "2. Терминатор 2: Судный день (Terminator 2: Judgment Day), 1991",
                         "3. Побег из Шоушенка (The Shawshank Redemption), 1994",
@@ -147,9 +146,9 @@ class Ui_MainWindow(object):
                         "98. Самогонщики, 1961",
                         "99. Завтрак у Тиффани (Breakfast at Tiffany`s), 1961",
                         "100. Отступники (The Departed), 2006"
-                    ]       
-            i = np.random.randint(0, 99)            
-            self.label.setText(films[i])
+                    ] 
+        i = np.random.randint(0, len(films))
+        self.label.setText(films[i])
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
