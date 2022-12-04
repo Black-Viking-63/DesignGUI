@@ -27,4 +27,4 @@
 В результате выполнения лабораторной работы №2 было реализовано приложение, скриншоты приложения привидены ниже.
 | Запуск приложения | Увеличение цены на нефть | Уменьшение цены на нефть |
 |:---:|:---:|:---:|
-| ![фото]() | ![фото]() | ![фото]() |
+| ![фото](https://github.com/Black-Viking-63/DesignGUI/blob/main/LabWork_2/image/%D1%84%D0%BE%D1%82%D0%BE1.png) | ![фото](https://github.com/Black-Viking-63/DesignGUI/blob/main/LabWork_2/image/%D1%84%D0%BE%D1%82%D0%BE2.png) | ![фото](https://github.com/Black-Viking-63/DesignGUI/blob/main/LabWork_2/image/%D1%84%D0%BE%D1%82%D0%BE3.png) |
