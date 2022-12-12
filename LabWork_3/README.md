@@ -9,7 +9,7 @@
     - Кнопка bt1 делает выборочный запрос, например, «SELECT name FROM sqlite_master», результат выводится в Tab2.
     - При выборе колонки из выпадающего списка QComboBox результат соотвествующего запроса отправляется в Tab3.
     - Кнопки bt2 и bt3 выполняют запрос по выводу таблицы в Tab4 и Tab5
-* Иллюстрация пример
+* Иллюстрация пример<br><br>
 ![фото](https://github.com/Black-Viking-63/DesignGUI/blob/main/LabWork_3/images/technical_task.png)
 
 # Инструменты, используемые при разработке приложения
@@ -104,8 +104,7 @@ def get_random_date(start, end):
 * Код, обеспечивающий генерацию набора данных и его сохранение в выходной файл.
 
 ## Вспомогательный скрипт загрузки таблиц
-[`help.py`](https://github.com/Black-Viking-63/DesignGUI/blob/main/LabWork_3/help.py)<br>
-В данный скрипт выненсены некоторые функции, для улучшения читаемости основного файла с описанием графического интерфейса.
+[`help.py`](https://github.com/Black-Viking-63/DesignGUI/blob/main/LabWork_3/help.py) - в данный скрипт выненсены некоторые функции, для улучшения читаемости основного файла с описанием графического интерфейса.
 * `load_name_tables` - функция, необходимая для получения имен столбцов таблицы из базы данных.
 * `ld_labels` - функция, необходимая для установки имен столбцов в `QTableWidget`
 * `ld_data_main_window` - функция, необходимая для загрузки данных в основное окно 
@@ -135,11 +134,11 @@ def get_random_date(start, end):
 
 
 ## Работа на главном окне
-| Открытие соединения|Результат открытия соединения|Закрытие соединения|Результат закрытие соединения|
+| Открытие соединения|Результат открытия соединения|Закрытие соединения|Результат закрытия соединения|
 |:---:|:---:|:---:|:---:|
 |![фото](https://github.com/Black-Viking-63/DesignGUI/blob/main/LabWork_3/images/open_connect.png)|![фото](https://github.com/Black-Viking-63/DesignGUI/blob/main/LabWork_3/images/result_open_coonect.png)|![фото](https://github.com/Black-Viking-63/DesignGUI/blob/main/LabWork_3/images/close_connect.png)|![фото](https://github.com/Black-Viking-63/DesignGUI/blob/main/LabWork_3/images/close_connect_resilt.png)|
 
 ## Работа с дополнительным окном
-|Работ главного окна<br>при закрытом соединении|Работа главного окна<br>при открытом соединении|Выполнение запроса<br>при открытом соединении|Выполнение запроса<br>при закрытом соединении|
+|Работа главного окна<br>при закрытом соединении|Работа главного окна<br>при открытом соединении|Выполнение запроса<br>при открытом соединении|Выполнение запроса<br>при закрытом соединении|
 |:---:|:---:|:---:|:---:|
 |![фото](https://github.com/Black-Viking-63/DesignGUI/blob/main/LabWork_3/images/second_window_close_connect.png)|![фото](https://github.com/Black-Viking-63/DesignGUI/blob/main/LabWork_3/images/second_window_open_connect.png)|![фото](https://github.com/Black-Viking-63/DesignGUI/blob/main/LabWork_3/images/second_window_executed_query.png)|![фото](https://github.com/Black-Viking-63/DesignGUI/blob/main/LabWork_3/images/query_with_close_connect.png)|
